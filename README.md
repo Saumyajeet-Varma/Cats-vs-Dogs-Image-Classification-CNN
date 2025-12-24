@@ -49,6 +49,8 @@ The CNN architecture consists of:
 - Train the model on training data
 - Evaluate performance on validation data
 
+---
+
 ## Results
 
 - Achieves **73.55%** accuracy on validation data
