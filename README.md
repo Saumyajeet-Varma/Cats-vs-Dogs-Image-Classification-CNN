@@ -21,17 +21,6 @@ The model is trained on labeled image data and learns visual patterns such as ed
 
 ---
 
-## Model Architecture
-
-The CNN architecture consists of:
-- Convolutional layers for feature extraction
-- MaxPooling layers for spatial downsampling
-- Fully connected (Dense) layers for classification
-- Sigmoid activation for binary output
-
-
----
-
 ## 📊 Dataset
 
 - The dataset contains images of cats and dogs
@@ -53,11 +42,11 @@ The CNN architecture consists of:
 
 ## Results
 
-- Achieves **73.55%** accuracy on validation data
+## 📊 Model Performance Comparison
 
-#### Accuracy
-![Accuracy and Validation Accuracy History](./images/accuracy.png)
-#### Loss
-![Loss and Validation Loss History](./images/loss.png)
+| Model Name | Validation Accuracy | Accuracy Plot | Loss Plot |
+|-----------|--------------------|---------------|-----------|
+| CNN (My Model) | **73.65%** | ![Accuracy](./images/cnn_accuracy.png) | ![Loss](./images/cnn_loss.png) |
+| VGG16 | **50.00** | ![Accuracy](./images/vgg16_accuracy.png) | ![Loss](./images/vgg16_loss.png) |
 
 > Model performance depends on dataset size and training epochs
