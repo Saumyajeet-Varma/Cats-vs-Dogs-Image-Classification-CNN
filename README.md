@@ -47,6 +47,6 @@ The model is trained on labeled image data and learns visual patterns such as ed
 | Model Name | Validation Accuracy | Accuracy Plot | Loss Plot |
 |-----------|--------------------|---------------|-----------|
 | CNN (My Model) | **73.65%** | ![Accuracy](./images/cnn_accuracy.png) | ![Loss](./images/cnn_loss.png) |
-| VGG16 | **50.00** | ![Accuracy](./images/vgg16_accuracy.png) | ![Loss](./images/vgg16_loss.png) |
+| VGG16 | **50.00%** | ![Accuracy](./images/vgg16_accuracy.png) | ![Loss](./images/vgg16_loss.png) |
 
 > Model performance depends on dataset size and training epochs
